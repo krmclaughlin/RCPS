@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, sourceCpp, evalCpp)
+importFrom("grDevices", "palette")
+importFrom("graphics", "abline", "par", "points", "rect", "segments", "text")
+importFrom("stats", "chisq.test", "density", "na.omit", "rnorm")
+useDynLib(RCPS, .registration = TRUE)

@@ -1,0 +1,28 @@
+Package: RCPS
+Type: Package
+Title: Preferential Selection Models for Respondent-Driven Sampling
+Version: 0.1.0
+Date: 2021-08-11
+Authors@R: person("Katherine R.", "McLaughlin",
+  email = "katherine.mclaughlin@oregonstate.edu", role = c("aut", "cre"))
+Description: Used in collaboration with the RDS package.
+  This package contains simulation algorithms and models for preferential
+  (non-random) selection, using two-sided rational-choice models based on nodal and
+  dyadic network characteristics.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.2.0),
+  ergm,
+  ggplot2,
+  igraph,
+  MASS,
+  network,
+  RDS,
+  sna,
+  truncnorm
+LinkingTo: Rcpp,
+  RcppArmadillo
+Imports: Rcpp,
+  RcppArmadillo
+RoxygenNote: 7.1.1
