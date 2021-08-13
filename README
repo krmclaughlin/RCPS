@@ -1,0 +1,5 @@
+Code for Version 0.1 of the RCPS package
+
+The source package is also included, which can be loaded using
+
+R CMD INSTALL RCPS_0.1.0.tar.gz
